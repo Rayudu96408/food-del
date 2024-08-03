@@ -8,6 +8,7 @@ import axios from 'axios';
 
 const PlaceOrder = () => {
 
+    
     const [payment, setPayment] = useState("cod")
     const [data, setData] = useState({
         firstName: "",
